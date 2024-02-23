@@ -5,7 +5,7 @@
 - <b>Inventory Template </b>
   - [Praciting lists, directories, indexing in Python ](https://github.com/joshmadakor1/Algorithms-Practice)
 - <b>Travel Hotel Booking (Webscraping, Python)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
+  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i></b></i>
 - <b>AWS Home Lab</b>
   - [ EventLog,AWS, ](https://github.com/joshmadakor1/Sentinel-Lab)
 
