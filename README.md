@@ -1,4 +1,4 @@
-<h1>Hi, I'm Jenna! <br/><a href="https://github.com/jennafrank"> 🕵🏻‍♀️Cybersecurity👩🏼‍💻</a><a href="https://www.linkedin.com/in/jenna-frank-4352b12b0/"> </a><a
+<h1>Hi, I'm Jenna! <br/><a href="https://github.com/jennafrank"> 🕵🏻‍♀️Intro Cybersecurity Professional👩🏼‍💻</a><a href="https://www.linkedin.com/in/jenna-frank-4352b12b0/"> </a><a
 
 <h2>Projects:</h2>
 
