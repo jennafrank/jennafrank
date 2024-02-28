@@ -3,8 +3,8 @@
 <h2>Projects:</h2>
 
 
-- <b>Sentinel Lab</b>
-  - [ EventLog, Azure, SEIM Tools ](https://github.com/jennafrank/Sentinel-Lab/blob/main/README.md)
+- <b>Brute Force SEIM Lab</b>
+  - [ EventLog, Azure, Sentinel, SEIM Tools ](https://github.com/jennafrank/Sentinel-Lab/blob/main/README.md)
 - <b>Simple Inventory Management System</b>
   - [Praciting Lists, Directories, Indexing in Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun)
 - <b>Travel Hotel Booking </b>
