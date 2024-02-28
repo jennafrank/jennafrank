@@ -13,7 +13,7 @@
 
 <h2> 🤳 Connect with me:</h2>
 
-<b>[JennaFrank.co](https://www.JennaFrank.co</b>)
+<b>[JennaFrank.co](https://www.JennaFrank.co)</b>
 [Instagram](https://www.instagram.com/jennacfrank/)
 [linkedin](https://linkedin.com/in/jenna-frank-4352b12b0)
 
