@@ -2,12 +2,14 @@
 
 <h2>Projects:</h2>
 
+
+- <b>Sentinel Lab</b>
+  - [ EventLog, Azure, SEIM Tools ](https://github.com/jennafrank/Sentinel-Lab/blob/main/README.md)
 - <b>Simple Inventory Management System</b>
   - [Praciting Lists, Directories, Indexing in Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun)
 - <b>Travel Hotel Booking </b>
   - [Webscraping, Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun) <b><i></b></i>
-- <b>AWS Home Lab</b>
-  - [ EventLog, AWS, SEIM Tools ](https://github.com/jennafrank/Here-we-go-Lets-have-fun)
+
 
 <h2> 🤳 Connect with me:</h2>
 
