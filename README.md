@@ -8,7 +8,7 @@
 - <b>Simple Inventory Management System</b>
   - [Praciting Lists, Directories, Indexing in Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun)
 - <b>Travel Hotel Booking </b>
-  - [Webscraping, Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun) <b><i></b></i>
+  - [Webscraping, Python](https://github.com/jennafrank/Booked_Hotel_Travel/tree/main) <b><i></b></i>
 
 
 <h2> 🤳 Connect with me:</h2>
