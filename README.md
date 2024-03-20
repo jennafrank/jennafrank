@@ -8,7 +8,7 @@
 - <b>Simple Inventory Management System</b>
   - [Praciting Lists, Directories, Indexing in Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun)
 - <b>Active Directory Deployment</b>
-  - [Platforms and Technology Used: Oracle VirtualBox, Active Directory, PowerShell, Remote Access Server (RAS), Windows DNS, DHCP, Windows File Servers, NTFS permissions.](https://github.com/jennafrank/Active_Directory_Deployment)
+  - [Oracle VirtualBox, Active Directory, PowerShell, Remote Access Server (RAS), Windows DNS, DHCP, Windows File Servers, NTFS permissions](https://github.com/jennafrank/Active_Directory_Deployment)
 
 
 <h2> 🤳 Connect with me:</h2>
