@@ -7,7 +7,8 @@
   - [ EventLog, Azure, Sentinel, SEIM Tools ](https://github.com/jennafrank/Sentinel-Lab/blob/main/README.md)
 - <b>Simple Inventory Management System</b>
   - [Praciting Lists, Directories, Indexing in Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun)
-
+- <b>Active Directory Deployment</b>
+  - [Praciting Lists, Directories, Indexing in Python](https://github.com/jennafrank/Here-we-go-Lets-have-fun)
 
 
 <h2> 🤳 Connect with me:</h2>
