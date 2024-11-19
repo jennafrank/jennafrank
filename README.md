@@ -2,7 +2,8 @@
 
 <h2>Projects:</h2>
 
-
+- <b>API Automation Weather and Power Management Dashboard</b>
+  - [ API, Automation, Python Scripting](https://github.com/jennafrank/API-Automation-Weather-and-Power-Management-Dashboard)
 - <b>Brute Force SEIM Lab</b>
   - [ EventLog, Azure, Sentinel, SEIM Tools ](https://github.com/jennafrank/Sentinel-Lab/blob/main/README.md)
 - <b>Simple Inventory Management System</b>
