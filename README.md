@@ -25,6 +25,26 @@ I build things that catch hackers and document everything.
 
 ## Projects
 
+## ⚔️ Empire Vulnerability Protocol
+
+### Comprehensive Vulnerability Management Lifecycle
+
+Policy governance, vulnerability detection, risk assessment, remediation operations, and verification closure. 81% vulnerability reduction achieved in the first cycle.
+
+**[View Program →](https://github.com/jennafrank/vulnerability-management-empire)**
+
+---
+
+## 🎯 Threat Hunting & Security Operations
+
+### Threat Hunt: Unauthorized TOR Network Access
+
+Parallel threat hunting investigation documenting TOR browser detection via KQL queries, network telemetry analysis, and forensic timeline reconstruction.
+
+**[View Investigation →](https://github.com/jennafrank/threat-hunting-tor-imperial)**
+
+---
+
 ### 🍯 Sable Saint-Claire & The Honeypots
 
 ![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
@@ -35,6 +55,16 @@ I build things that catch hackers and document everything.
 A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. Currently collecting threat intelligence data from the open internet.
 
 **[View Project →](https://github.com/jennafrank/the-honeypots)**
+
+---
+
+### 🏥 Healthcare Enterprise Honeynet
+
+[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117) [![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117) [![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117) [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
+
+Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-time SOC dashboard, 3,181 synthetic healthcare documents, threat hunting framework, and attacker behavior analysis.
+
+**[View Honeynet →](https://github.com/jennafrank/healthcare-enterprise-honeynet)**
 
 ---
 
