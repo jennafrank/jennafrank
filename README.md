@@ -25,6 +25,16 @@ I build things that catch hackers and document everything.
 
 ## Projects
 
+### ⚔️ Imperial STIG Strikes Back
+
+[![Windows](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117) [![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117) [![STIG Compliant](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117) [![Audit Policy](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
+
+Comprehensive Windows 11 STIG compliance remediation. 11 HIGH severity findings remediated through tactical PowerShell operations. 100 → 115 STIG items brought into compliance. Imperial Command's security hardening directive, fully executed.
+
+**[View Campaign →](https://github.com/jennafrank/imperial-stig-strikes-back)**
+
+---
+
 ## ⚔️ Empire Vulnerability Protocol
 
 ### Comprehensive Vulnerability Management Lifecycle
