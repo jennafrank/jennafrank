@@ -18,8 +18,8 @@
 </div>
 
 **WGU Cybersecurity B.S. (2027)** &nbsp;|&nbsp; CompTIA A+, Network+, Security+ *(in progress)*<br/>
-Currently: **Cybersecurity Intern** — Azure · GRC-focused<br/>
-I build things that catch hackers and document everything.
+Currently: **Cybersecurity Project Manager** — Azure · GRC-focused<br/>
+I put order to chaos and build things that catch hackers while documenting everything.
 
 ---
 
