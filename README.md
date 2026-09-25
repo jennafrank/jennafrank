@@ -18,8 +18,7 @@
 </div>
 
 **WGU Cybersecurity B.S. (2027)** &nbsp;|&nbsp; CompTIA A+, Network+, Security+ *(in progress)*<br/>
-Currently: **Cybersecurity Project Manager** — Azure · GRC-focused<br/>
-I put order to chaos and build things that catch hackers while documenting everything.
+Currently: **Cybersecurity Project Manager** - Built Pacific Watch, a SOC on the Log(N) Pacific cyber range. Threat hunting, Sentinel, KQL, MITRE ATT&CK. Hot Pink Huntress 💗
 
 ---
 
