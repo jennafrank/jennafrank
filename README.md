@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <em>Cybersecurity student by day. Threat hunter by night.</em><br/>
+  <em>Cybersecurity Operations by day. Threat hunter by night.</em><br/>
   <em>Builder of honeypots, breaker of assumptions.</em>
 </p>
 
@@ -25,6 +25,17 @@ I put order to chaos and build things that catch hackers while documenting every
 
 ## Projects
 
+---
+
+### 🤖 JADEPUFFER: Agentic Ransomware Hunt
+
+### Hunting an Autonomous AI Attacker in Microsoft Sentinel
+
+One sentence of instruction. Seventeen minutes. Zero humans. I traced an LLM agent from an unauthenticated Langflow RCE (CVE-2025-3248) through credential theft, lateral movement, and a self-repaired exploit to 1,342 encrypted records across 4 hosts. Includes the KQL hunt queries, full MITRE ATT&CK mapping, and the four detection signals that separated the agent from normal noise.
+
+**[View Hunt →](https://github.com/jennafrank/threat-hunt-agentic-ransomware)**
+---
+
 ### ⚔️ Imperial STIG Strikes Back
 
 [![Windows](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117) [![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117) [![STIG Compliant](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117) [![Audit Policy](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
@@ -33,6 +44,18 @@ Comprehensive Windows 11 STIG compliance remediation. 11 HIGH severity findings 
 
 **[View Campaign →](https://github.com/jennafrank/imperial-stig-strikes-back)**
 
+---
+
+### 🍯 Sable Saint-Claire & The Honeypots
+
+![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
+![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)
+![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
+
+A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. Currently collecting threat intelligence data from the open internet.
+
+**[View Project →](https://github.com/jennafrank/the-honeypots)**
 ---
 
 ## ⚔️ Empire Vulnerability Protocol
@@ -52,19 +75,6 @@ Policy governance, vulnerability detection, risk assessment, remediation operati
 Parallel threat hunting investigation documenting TOR browser detection via KQL queries, network telemetry analysis, and forensic timeline reconstruction.
 
 **[View Investigation →](https://github.com/jennafrank/threat-hunting-tor-imperial)**
-
----
-
-### 🍯 Sable Saint-Claire & The Honeypots
-
-![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
-![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)
-![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-
-A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. Currently collecting threat intelligence data from the open internet.
-
-**[View Project →](https://github.com/jennafrank/the-honeypots)**
 
 ---
 
@@ -99,16 +109,6 @@ Built a full enterprise Active Directory environment from scratch. Dual-NIC doma
 ![SIEM](https://img.shields.io/badge/SIEM-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
 
 Simulated brute force attacks and built detection rules in Azure Sentinel. Because knowing how attacks work is the first step to stopping them.
-
----
-
-### 🌦️ API Automation Weather & Power Dashboard
-
-![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
-![API](https://img.shields.io/badge/API-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-![Automation](https://img.shields.io/badge/Automation-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-
-Automated data pipeline pulling live weather and power management data. Built for efficiency, documented for clarity.
 
 ---
 
