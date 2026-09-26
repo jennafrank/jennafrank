@@ -26,6 +26,45 @@ Currently: **Cybersecurity Project Manager** - Built Pacific Watch, a SOC on the
 
 ---
 
+### 🛡️ [Pacific Watch SOC](https://github.com/jennafrank/cyber-range-soc)
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
+[![Defender for Endpoint](https://img.shields.io/badge/Defender_for_Endpoint-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
+[![Logic Apps](https://img.shields.io/badge/Logic_Apps-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
+[![Jira](https://img.shields.io/badge/Jira-FF1493?style=flat-square&logo=jira&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
+
+The advisory-only SOC I built and run on the Log(N) Pacific cyber range, where beginning analysts learn real SOC work. Detections flow through a Sentinel to Logic Apps to Jira pipeline I built, into Tier 1 and Tier 2 queues, with four-shift handoffs and a seven-value disposition taxonomy. About 50 builders and 15 leaders across six teams. Includes case studies, including the 316-case queue flood that became our detection build standard.
+
+**[View Project →](https://github.com/jennafrank/cyber-range-soc)**
+
+---
+
+### 🔬 [Pacific Watch Detection Engineering](https://github.com/jennafrank/pacific-watch-detection-engineering)
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+[![Detection Engineering](https://img.shields.io/badge/Detection_Engineering-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+
+The Detection Build Card I wrote: the research-to-release standard every Pacific Watch detection follows, with working templates. The worked example grades my own first production rule against it: 65 requirements, 18 met, 25 partially met, 2 not met, 20 not recorded. Every local rule is traced to the thing that broke.
+
+**[View Project →](https://github.com/jennafrank/pacific-watch-detection-engineering)**
+
+---
+
+### 🎣 [INC-2026-87241: Cloud Identity Compromise & BEC](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![Microsoft 365](https://img.shields.io/badge/Microsoft_365-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![Entra ID](https://img.shields.io/badge/Entra_ID-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+
+A full investigation of a Microsoft 365 account takeover. The attacker used legacy authentication to bypass Conditional Access, signed in 583 times with MFA satisfied zero times, ran Graph API reconnaissance, exfiltrated files, and sent a fraudulent payment request to the CFO. Persistence came from inbox rules and a Power Automate flow. Includes the timeline and 5 KQL detections.
+
+**[View Project →](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)**
+
+---
+
 ### 🤖 JADEPUFFER: Agentic Ransomware Hunt
 
 ### Hunting an Autonomous AI Attacker in Microsoft Sentinel
