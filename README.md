@@ -91,7 +91,7 @@ Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-tim
 ![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
 
-A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. "146 days of real attacker telemetry from the open internet (Apr 27 to Sep 21, 2026).
+A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. 146 days of real attacker telemetry from the open internet (Apr 27 to Sep 21, 2026).
 
 **[View Project →](https://github.com/jennafrank/the-honeypots)**
 
