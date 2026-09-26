@@ -39,19 +39,6 @@ The advisory-only SOC I built and run on the Log(N) Pacific cyber range, where b
 
 ---
 
-### 🔬 [Pacific Watch Detection Engineering](https://github.com/jennafrank/pacific-watch-detection-engineering)
-
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
-[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
-[![Detection Engineering](https://img.shields.io/badge/Detection_Engineering-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
-
-The Detection Build Card I wrote: the research-to-release standard every Pacific Watch detection follows, with working templates. The worked example grades my own first production rule against it: 65 requirements, 18 met, 25 partially met, 2 not met, 20 not recorded. Every local rule is traced to the thing that broke.
-
-**[View Project →](https://github.com/jennafrank/pacific-watch-detection-engineering)**
-
----
-
 ### 🎣 [INC-2026-87241: Cloud Identity Compromise & BEC](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
 
 [![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
@@ -65,6 +52,19 @@ A full investigation of a Microsoft 365 account takeover. The attacker used lega
 
 ---
 
+### 🔬 [Pacific Watch Detection Engineering](https://github.com/jennafrank/pacific-watch-detection-engineering)
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+[![Detection Engineering](https://img.shields.io/badge/Detection_Engineering-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
+
+The Detection Build Card I wrote: the research-to-release standard every Pacific Watch detection follows, with working templates. The worked example grades my own first production rule against it: 65 requirements, 18 met, 25 partially met, 2 not met, 20 not recorded. Every local rule is traced to the thing that broke.
+
+**[View Project →](https://github.com/jennafrank/pacific-watch-detection-engineering)**
+
+---
+
 ### 🤖 JADEPUFFER: Agentic Ransomware Hunt
 
 ### Hunting an Autonomous AI Attacker in Microsoft Sentinel
@@ -74,13 +74,13 @@ One sentence of instruction. Seventeen minutes. Zero humans. I traced an LLM age
 **[View Hunt →](https://github.com/jennafrank/threat-hunt-agentic-ransomware)**
 ---
 
-### ⚔️ Imperial STIG Strikes Back
+### 🏥 Healthcare Enterprise Honeynet
 
-[![Windows](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117) [![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117) [![STIG Compliant](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117) [![Audit Policy](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
+[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117) [![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117) [![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117) [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
 
-Comprehensive Windows 11 STIG compliance remediation. 11 HIGH severity findings remediated through tactical PowerShell operations. 100 → 115 STIG items brought into compliance. Imperial Command's security hardening directive, fully executed.
+Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-time SOC dashboard, 3,181 synthetic healthcare documents, threat hunting framework, and attacker behavior analysis.
 
-**[View Campaign →](https://github.com/jennafrank/imperial-stig-strikes-back)**
+**[View Honeynet →](https://github.com/jennafrank/healthcare-enterprise-honeynet)**
 
 ---
 
@@ -91,9 +91,20 @@ Comprehensive Windows 11 STIG compliance remediation. 11 HIGH severity findings 
 ![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
 
-A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. Currently collecting threat intelligence data from the open internet.
+A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. "146 days of real attacker telemetry from the open internet (Apr 27 to Sep 21, 2026).
 
 **[View Project →](https://github.com/jennafrank/the-honeypots)**
+
+---
+
+### ⚔️ Imperial STIG Strikes Back
+
+[![Windows](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117) [![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117) [![STIG Compliant](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117) [![Audit Policy](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
+
+Comprehensive Windows 11 STIG compliance remediation. 11 HIGH severity findings remediated through tactical PowerShell operations. 100 → 115 STIG items brought into compliance. Imperial Command's security hardening directive, fully executed.
+
+**[View Campaign →](https://github.com/jennafrank/imperial-stig-strikes-back)**
+
 ---
 
 ## ⚔️ Empire Vulnerability Protocol
@@ -113,16 +124,6 @@ Policy governance, vulnerability detection, risk assessment, remediation operati
 Parallel threat hunting investigation documenting TOR browser detection via KQL queries, network telemetry analysis, and forensic timeline reconstruction.
 
 **[View Investigation →](https://github.com/jennafrank/threat-hunting-tor-imperial)**
-
----
-
-### 🏥 Healthcare Enterprise Honeynet
-
-[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117) [![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117) [![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117) [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-
-Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-time SOC dashboard, 3,181 synthetic healthcare documents, threat hunting framework, and attacker behavior analysis.
-
-**[View Honeynet →](https://github.com/jennafrank/healthcare-enterprise-honeynet)**
 
 ---
 
