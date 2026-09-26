@@ -59,7 +59,7 @@ A full investigation of a Microsoft 365 account takeover. The attacker used lega
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
 [![Detection Engineering](https://img.shields.io/badge/Detection_Engineering-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/pacific-watch-detection-engineering)
 
-The Detection Build Card I wrote: the research-to-release standard every Pacific Watch detection follows, with working templates. The worked example grades my own first production rule against it: 65 requirements, 18 met, 25 partially met, 2 not met, 20 not recorded. Every local rule is traced to the thing that broke.
+The Detection Build Card I wrote: the research-to-release standard every Pacific Watch detection follows, with working templates. The worked example grades my own first production rule against it: 66 requirements, 19 met, 24 partially met, 3 not met, 20 not recorded. Every local rule is traced to the thing that broke.
 
 **[View Project →](https://github.com/jennafrank/pacific-watch-detection-engineering)**
 
