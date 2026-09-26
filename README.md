@@ -140,24 +140,14 @@ Built a full enterprise Active Directory environment from scratch. Dual-NIC doma
 
 ---
 
-### ⚡ Brute Force SIEM Lab
-
-![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
-![Sentinel](https://img.shields.io/badge/Sentinel-FF1493?style=flat-square&logo=microsoft&logoColor=white&labelColor=0d1117)
-![EventLog](https://img.shields.io/badge/EventLog-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-![SIEM](https://img.shields.io/badge/SIEM-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-
-Simulated brute force attacks and built detection rules in Azure Sentinel. Because knowing how attacks work is the first step to stopping them.
-
----
-
 ## Currently Learning
 
 ![Threat Intel](https://img.shields.io/badge/→_Threat_Intelligence_&_Honeypot_Research-FFD700?style=flat-square&labelColor=0d1117)<br/>
-![GRC](https://img.shields.io/badge/→_GRC_Frameworks_(NIST,_ISO_27001)-FFD700?style=flat-square&labelColor=0d1117)<br/>
-![AZ-500](https://img.shields.io/badge/→_Azure_Security_(AZ--500)-FFD700?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)<br/>
-![Python](https://img.shields.io/badge/→_Python_for_Security_Automation-FFD700?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
-
+![M365](https://img.shields.io/badge/→_Microsoft_365_%26_Entra_ID_Investigations-FFD700?style=flat-square&logo=microsoft&logoColor=white&labelColor=0d1117)<br/>
+![Windows](https://img.shields.io/badge/→_Windows_Persistence_%26_Endpoint_Forensics-FFD700?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)<br/>
+![Malware](https://img.shields.io/badge/→_Malware_Analysis_Fundamentals_%28Static_%26_Dynamic%29-FFD700?style=flat-square&labelColor=0d1117)<br/>
+![Security+](https://img.shields.io/badge/→_CompTIA_Security%2B-FFD700?style=flat-square&labelColor=0d1117)<br/>
+![Scripting](https://img.shields.io/badge/→_PowerShell_%26_Python_for_Triage_Automation-FFD700?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)
 ---
 
 ## Connect
