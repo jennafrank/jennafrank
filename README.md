@@ -12,13 +12,13 @@
 <div align="center">
 
 ![WGU](https://img.shields.io/badge/WGU_B.S._Cybersecurity-2027-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-![Intern](https://img.shields.io/badge/Cybersecurity_Intern-Azure_|_GRC-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
+![Security Operations Manager](https://img.shields.io/badge/Security_Operations_Manager-Azure_|_GRC-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
 ![CompTIA](https://img.shields.io/badge/CompTIA-A+_|_Network+_|_Security+_in_progress-FFD700?style=flat-square&logoColor=white&labelColor=0d1117)
 
 </div>
 
 **WGU Cybersecurity B.S. (2027)** &nbsp;|&nbsp; CompTIA A+, Network+, Security+ *(in progress)*<br/>
-Currently: **Cybersecurity Project Manager** - Built Pacific Watch, a SOC on the Log(N) Pacific cyber range. Threat hunting, Sentinel, KQL, MITRE ATT&CK. Hot Pink Huntress 💗
+Currently: **Security Operations Manager** - Built Pacific Watch, a SOC on the Log(N) Pacific cyber range. Threat hunting, Sentinel, KQL, MITRE ATT&CK. Hot Pink Huntress 💗
 
 ---
 
@@ -163,7 +163,7 @@ Simulated brute force attacks and built detection rules in Azure Sentinel. Becau
 ## Connect
 
 🌐 &nbsp;[JennaFrank.co](https://www.JennaFrank.co)<br/>
-💼 &nbsp;[LinkedIn](https://linkedin.com/in/jenna-frank-4352b12b0)<br/>
+💼 &nbsp;[LinkedIn](https://linkedin.com/in/jenna-frank-cyber)<br/>
 📸 &nbsp;[Instagram](https://www.instagram.com/jennacfrank/)
 
 ---
