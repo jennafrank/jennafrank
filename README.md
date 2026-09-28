@@ -26,6 +26,32 @@ Currently: **Security Operations Manager** - Built Pacific Watch, a SOC on the L
 
 ---
 
+### 🎯 [Hunt: TideGlass — Autonomous LLM-Agent Post-Exploitation](https://github.com/jennafrank/llm-agent-threat-hunt)
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
+[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
+[![MITRE ATLAS](https://img.shields.io/badge/MITRE_ATLAS-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
+
+Scored first place (96/100) out of 39 analysts on the Log(N) Pacific cyber range, won on report quality. Hunted an autonomous AI agent that exploited an unpatched marimo notebook (CVE-2026-39987), stole cloud credentials via IMDS, rotated through a six-IP egress pool against Secrets Manager, moved laterally to a bastion via a stolen SSH key, and exfiltrated 2.8M customer records — all in 52 minutes with zero human input after initial tasking. Every malicious step had a legitimate twin separated by one field. Nine KQL detections authored, mapped to ATT&CK and ATLAS (AML.T0098). Hypothesis proved with two blind spots documented.
+
+**[View Report →](https://github.com/jennafrank/llm-agent-threat-hunt)**
+
+---
+
+### 🍯 [Sable Saint-Claire & The Honeypots](https://github.com/jennafrank/the-honeypots)
+
+[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
+[![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
+[![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
+
+A live SSH honeypot disguised as a Solana validator node, built from scratch and exposed to the open internet for 146 days (Apr 27 – Sep 21, 2026). 17 Easter eggs, canary tokens, and a real-time attack dashboard. Captured brute-force campaigns, credential-stuffing waves, and post-auth reconnaissance from real attackers — then wrote detection rules and a full research writeup from the telemetry. And one very glamorous gotcha moment.
+
+**[View Project →](https://github.com/jennafrank/the-honeypots)**
+
+---
+
 ### 🛡️ [Pacific Watch SOC](https://github.com/jennafrank/cyber-range-soc)
 
 [![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
@@ -65,13 +91,16 @@ The Detection Build Card I wrote: the research-to-release standard every Pacific
 
 ---
 
-### 🤖 JADEPUFFER: Agentic Ransomware Hunt
+### 🤖 [JADEPUFFER: Agentic Ransomware Hunt](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
 
-### Hunting an Autonomous AI Attacker in Microsoft Sentinel
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
+[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
 
-One sentence of instruction. Seventeen minutes. Zero humans. I traced an LLM agent from an unauthenticated Langflow RCE (CVE-2025-3248) through credential theft, lateral movement, and a self-repaired exploit to 1,342 encrypted records across 4 hosts. Includes the KQL hunt queries, full MITRE ATT&CK mapping, and the four detection signals that separated the agent from normal noise.
+One sentence of instruction. Seventeen minutes. Four hosts. Zero humans. I traced an autonomous LLM agent from an unauthenticated Langflow RCE (CVE-2025-3248) through credential theft across 8 credential families, lateral movement via default creds and forged JWTs, a 31-second self-repair when its exploit broke, to 1,342 AES-encrypted records and a DROP TABLE — key never persisted, data unrecoverable. Seven KQL detection queries and four behavioral signals that separated the agent from normal noise: parent process context, port anomaly, scope targeting, and temporal fingerprint. Scored 73/100 on the range — then rewrote the report, learned what I missed, and came back for Hunt 24 and scored 96.
 
 **[View Hunt →](https://github.com/jennafrank/threat-hunt-agentic-ransomware)**
+
 ---
 
 ### 🏥 Healthcare Enterprise Honeynet
@@ -81,19 +110,6 @@ One sentence of instruction. Seventeen minutes. Zero humans. I traced an LLM age
 Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-time SOC dashboard, 3,181 synthetic healthcare documents, threat hunting framework, and attacker behavior analysis.
 
 **[View Honeynet →](https://github.com/jennafrank/healthcare-enterprise-honeynet)**
-
----
-
-### 🍯 Sable Saint-Claire & The Honeypots
-
-![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
-![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)
-![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
-
-A live SSH honeypot disguised as a Solana validator node. 17 Easter eggs. Real-time attack dashboard. Canary tokens. And one very glamorous gotcha moment. 146 days of real attacker telemetry from the open internet (Apr 27 to Sep 21, 2026).
-
-**[View Project →](https://github.com/jennafrank/the-honeypots)**
 
 ---
 
