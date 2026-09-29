@@ -16,7 +16,7 @@
 
 </div>
 
-**WGU Cybersecurity B.S. (2027)** &nbsp;|&nbsp; CompTIA A+, Network+, Security+ *(in progress)*<br/>
+**WGU Cybersecurity B.S. (2027)** &nbsp;|&nbsp;
 Currently: **Security Operations Manager** - Built Pacific Watch, a SOC on the Log(N) Pacific cyber range. Threat hunting, Sentinel, KQL, MITRE ATT&CK. Hot Pink Huntress 💗
 
 ---
