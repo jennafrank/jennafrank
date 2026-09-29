@@ -102,9 +102,12 @@ One sentence of instruction. Seventeen minutes. Four hosts. Zero humans. I trace
 
 ---
 
-### 🏥 Healthcare Enterprise Honeynet
+### 🏥 [Healthcare Enterprise Honeynet](https://github.com/jennafrank/healthcare-enterprise-honeynet)
 
-[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117) [![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117) [![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117) [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
+[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
+[![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
+[![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
 
 Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-time SOC dashboard, 3,181 synthetic healthcare documents, threat hunting framework, and attacker behavior analysis.
 
@@ -112,9 +115,12 @@ Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-tim
 
 ---
 
-### ⚔️ Imperial STIG Strikes Back
+### ⚔️ [Imperial STIG Strikes Back](https://github.com/jennafrank/imperial-stig-strikes-back)
 
-[![Windows](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Windows-11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117) [![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117) [![STIG Compliant](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&logoColor=white&labelColor=0d1117) [![Audit Policy](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
+[![Windows 11](https://img.shields.io/badge/Windows_11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/imperial-stig-strikes-back)
+[![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/imperial-stig-strikes-back)
+[![STIG Compliant](https://img.shields.io/badge/STIG_Compliant-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/imperial-stig-strikes-back)
+[![Audit Policy](https://img.shields.io/badge/Audit_Policy-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/imperial-stig-strikes-back)
 
 Comprehensive Windows 11 STIG compliance remediation. 11 HIGH severity findings remediated through tactical PowerShell operations. 100 → 115 STIG items brought into compliance. Imperial Command's security hardening directive, fully executed.
 
@@ -122,19 +128,23 @@ Comprehensive Windows 11 STIG compliance remediation. 11 HIGH severity findings 
 
 ---
 
-## ⚔️ Empire Vulnerability Protocol
+### 🛡️ [Empire Vulnerability Protocol](https://github.com/jennafrank/vulnerability-management-empire)
 
-### Comprehensive Vulnerability Management Lifecycle
+[![Vulnerability Management](https://img.shields.io/badge/Vulnerability_Management-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/vulnerability-management-empire)
+[![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/vulnerability-management-empire)
+[![Remediation](https://img.shields.io/badge/Remediation-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/vulnerability-management-empire)
 
-Policy governance, vulnerability detection, risk assessment, remediation operations, and verification closure. 81% vulnerability reduction achieved in the first cycle.
+Comprehensive vulnerability management lifecycle. Policy governance, vulnerability detection, risk assessment, remediation operations, and verification closure. 81% vulnerability reduction achieved in the first cycle.
 
 **[View Program →](https://github.com/jennafrank/vulnerability-management-empire)**
 
 ---
 
-## 🎯 Threat Hunting & Security Operations
+### 🎯 [Threat Hunt: Unauthorized TOR Network Access](https://github.com/jennafrank/threat-hunting-tor-imperial)
 
-### Threat Hunt: Unauthorized TOR Network Access
+[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunting-tor-imperial)
+[![Network Forensics](https://img.shields.io/badge/Network_Forensics-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunting-tor-imperial)
+[![Threat Hunting](https://img.shields.io/badge/Threat_Hunting-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunting-tor-imperial)
 
 Parallel threat hunting investigation documenting TOR browser detection via KQL queries, network telemetry analysis, and forensic timeline reconstruction.
 
@@ -142,12 +152,12 @@ Parallel threat hunting investigation documenting TOR browser detection via KQL 
 
 ---
 
-### 🖥️ Active Directory Home Lab
+### 🖥️ [Active Directory Home Lab](https://github.com/jennafrank/active_directory_home_lab)
 
-![Windows Server](https://img.shields.io/badge/Windows_Server_2019-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)
-![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-FF1493?style=flat-square&logo=virtualbox&logoColor=white&labelColor=0d1117)
-![Active Directory](https://img.shields.io/badge/Active_Directory-FF1493?style=flat-square&logo=microsoft&logoColor=white&labelColor=0d1117)
+[![Windows Server 2019](https://img.shields.io/badge/Windows_Server_2019-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/active_directory_home_lab)
+[![PowerShell](https://img.shields.io/badge/PowerShell-FF1493?style=flat-square&logo=powershell&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/active_directory_home_lab)
+[![VirtualBox](https://img.shields.io/badge/VirtualBox-FF1493?style=flat-square&logo=virtualbox&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/active_directory_home_lab)
+[![Active Directory](https://img.shields.io/badge/Active_Directory-FF1493?style=flat-square&logo=microsoft&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/active_directory_home_lab)
 
 Built a full enterprise Active Directory environment from scratch. Dual-NIC domain controller, DHCP, NAT routing, DNS, and a PowerShell script that spun up 1,000 users automatically. This is what your corporate IT environment looks like under the hood.
 
