@@ -13,7 +13,6 @@
 
 ![WGU](https://img.shields.io/badge/WGU_B.S._Cybersecurity-2027-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)
 ![Security Operations Lead](https://img.shields.io/badge/Security_Operations_Lead-Threat_Hunting_|_Detection_Engineering-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)
-![CompTIA](https://img.shields.io/badge/CompTIA-A+_|_Network+_|_Security+_in_progress-FFD700?style=flat-square&logoColor=white&labelColor=0d1117)
 
 </div>
 
