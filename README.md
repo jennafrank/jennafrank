@@ -25,6 +25,19 @@ Currently: **Security Operations Manager** - Built Pacific Watch, a SOC on the L
 
 ---
 
+### 🔗 [Open-Source Contribution: Detection Chokepoints — Land-and-Run](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ssh-land-and-run/)
+
+[![Sigma Rules](https://img.shields.io/badge/Sigma_Rules-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints)
+[![Lab Validated](https://img.shields.io/badge/Lab_Validated-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints)
+[![Open Source](https://img.shields.io/badge/Open_Source_Contributor-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints/pull/191)
+
+My first open-source contribution — merged into Tyler Bohlmann's [Detection Chokepoints](https://github.com/iimp0ster/detection-chokepoints) framework. I wrote the full chokepoint documentation, a three-tier Sigma rule set (Research → Hunt → Analyst), a lab emulation script, and a validated evidence pack for the Land-and-Run chokepoint. The invariant: code staged as a file in a shared-writable Linux directory must be written before it can be consumed — an unavoidable step attackers cannot bypass. Seven delivery methods validated (curl, wget, scp, sftp, base64 decode, heredoc, echo) across Debian 12 and Rocky 9 with auditd and Sysmon for Linux. Mapped to T1105, T1059.004, T1053.003, and T1564.001. Co-authored with [@SancLogic](https://github.com/SancLogic)..
+
+**[View Published Chokepoint →](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ssh-land-and-run/)** &nbsp;|&nbsp; **[Emulation Script →](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ssh-land-and-run/#emulation)** &nbsp;|&nbsp; **[View PR →](https://github.com/iimp0ster/detection-chokepoints/pull/191)**
+
+---
+
 ### 🎯 [Hunt: TideGlass — Autonomous LLM-Agent Post-Exploitation](https://github.com/jennafrank/llm-agent-threat-hunt)
 
 [![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
