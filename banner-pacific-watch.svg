@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <defs>
+    <linearGradient id="pw-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="50%" stop-color="#0d1218"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="pw-beam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="pw-glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="pw-lantern">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <!-- Katakana rain clip -->
+    <clipPath id="pw-clip">
+      <rect width="800" height="120"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="120" fill="url(#pw-bg)"/>
+
+  <!-- Faint matrix-style katakana rain across background -->
+  <g clip-path="url(#pw-clip)" font-family="'Courier New', monospace" font-size="9" opacity="0.06" fill="#58A6FF">
+    <text x="15" y="12">ア</text><text x="15" y="28">ノ</text><text x="15" y="44">ミ</text><text x="15" y="60">ス</text><text x="15" y="76">ヲ</text><text x="15" y="92">ケ</text><text x="15" y="108">タ</text>
+    <text x="35" y="8">ヌ</text><text x="35" y="24">レ</text><text x="35" y="40">ロ</text><text x="35" y="56">ソ</text><text x="35" y="72">ワ</text><text x="35" y="88">カ</text><text x="35" y="104">ヨ</text>
+    <text x="745" y="15">ウ</text><text x="745" y="31">チ</text><text x="745" y="47">ニ</text><text x="745" y="63">サ</text><text x="745" y="79">キ</text><text x="745" y="95">ヒ</text><text x="745" y="111">ム</text>
+    <text x="765" y="10">ツ</text><text x="765" y="26">ハ</text><text x="765" y="42">マ</text><text x="765" y="58">フ</text><text x="765" y="74">コ</text><text x="765" y="90">エ</text><text x="765" y="106">テ</text>
+    <text x="785" y="18">ク</text><text x="785" y="34">ナ</text><text x="785" y="50">ラ</text><text x="785" y="66">セ</text><text x="785" y="82">ユ</text><text x="785" y="98">メ</text>
+    <text x="55" y="16">イ</text><text x="55" y="48">ホ</text><text x="55" y="80">リ</text><text x="55" y="112">ネ</text>
+    <text x="725" y="20">オ</text><text x="725" y="52">モ</text><text x="725" y="84">ヘ</text>
+  </g>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="798" height="118" rx="4" fill="none" stroke="#4A8DB7" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Lighthouse on the left -->
+  <g transform="translate(75, 14)">
+    <!-- Ocean waves at base -->
+    <g stroke="#4A8DB7" stroke-width="1" fill="none" opacity="0.3">
+      <path d="M-20,85 Q-10,80 0,85 Q10,90 20,85 Q30,80 40,85"/>
+      <path d="M-25,90 Q-15,85 -5,90 Q5,95 15,90 Q25,85 35,90 Q45,85 50,90"/>
+    </g>
+
+    <!-- Lighthouse body -->
+    <polygon points="5,82 15,30 25,30 35,82" fill="#1a2332" stroke="#4A8DB7" stroke-width="0.8" opacity="0.6"/>
+    <!-- Lighthouse stripes -->
+    <line x1="9" y1="70" x2="31" y2="70" stroke="#4A8DB7" stroke-width="0.5" opacity="0.3"/>
+    <line x1="11" y1="58" x2="29" y2="58" stroke="#4A8DB7" stroke-width="0.5" opacity="0.3"/>
+    <line x1="13" y1="46" x2="27" y2="46" stroke="#4A8DB7" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Lantern room -->
+    <rect x="12" y="24" width="16" height="10" rx="1" fill="#1a2332" stroke="#4A8DB7" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- Roof -->
+    <polygon points="14,24 20,16 26,24" fill="#1a2332" stroke="#4A8DB7" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- Light source -->
+    <circle cx="20" cy="29" r="3" fill="#C9A84C" filter="url(#pw-lantern)" opacity="0.9"/>
+
+    <!-- Light beam -->
+    <polygon points="23,27 95,10 95,20 23,31" fill="url(#pw-beam)" opacity="0.25"/>
+    <polygon points="23,29 80,45 80,55 23,31" fill="url(#pw-beam)" opacity="0.12"/>
+  </g>
+
+  <!-- Circular sweep around lighthouse (radar/watch motif) -->
+  <g opacity="0.12">
+    <circle cx="95" cy="55" r="35" fill="none" stroke="#4A8DB7" stroke-width="0.5"/>
+    <circle cx="95" cy="55" r="50" fill="none" stroke="#4A8DB7" stroke-width="0.3" stroke-dasharray="3,6"/>
+  </g>
+
+  <!-- Project title -->
+  <text x="420" y="38" font-family="'Courier New', monospace" font-size="16" fill="#e6edf3" text-anchor="middle" font-weight="bold" letter-spacing="3">PACIFIC WATCH</text>
+
+  <!-- Subtitle -->
+  <text x="420" y="58" font-family="'Courier New', monospace" font-size="11" fill="#4A8DB7" text-anchor="middle" opacity="0.9">Security Operations Centre</text>
+
+  <!-- Stats -->
+  <text x="420" y="78" font-family="'Courier New', monospace" font-size="9" fill="#e6edf3" text-anchor="middle" opacity="0.4">Fusion SOC  ·  6 teams  ·  ~25 analysts  ·  Sentinel + Jira  ·  Log(N) Pacific Cyber Range</text>
+
+  <!-- Right side - SOC status indicators -->
+  <g opacity="0.3" transform="translate(650, 25)">
+    <!-- Status dots like a SOC dashboard -->
+    <circle cx="8" cy="8" r="3" fill="#3FB950"/>
+    <text x="16" y="11" font-family="'Courier New', monospace" font-size="7" fill="#e6edf3" opacity="0.7">SIEM</text>
+    <circle cx="8" cy="24" r="3" fill="#3FB950"/>
+    <text x="16" y="27" font-family="'Courier New', monospace" font-size="7" fill="#e6edf3" opacity="0.7">SOAR</text>
+    <circle cx="8" cy="40" r="3" fill="#3FB950"/>
+    <text x="16" y="43" font-family="'Courier New', monospace" font-size="7" fill="#e6edf3" opacity="0.7">HUNT</text>
+    <circle cx="8" cy="56" r="3" fill="#3FB950"/>
+    <text x="16" y="59" font-family="'Courier New', monospace" font-size="7" fill="#e6edf3" opacity="0.7">DFIR</text>
+  </g>
+
+  <!-- Watch/operational tag -->
+  <text x="720" y="105" font-family="'Courier New', monospace" font-size="9" fill="#4A8DB7" opacity="0.2">on watch</text>
+</svg>
