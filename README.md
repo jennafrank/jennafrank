@@ -25,42 +25,42 @@ Currently: **Security Operations Manager** - Built Pacific Watch, a SOC on the L
 
 ---
 
-### 🔗 [Open-Source Contribution: Detection Chokepoints — Land-and-Run](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ssh-land-and-run/)
+### <img src="banner-chokepoints.svg" alt="Detection Chokepoints — Land-and-Run" width="800"/>
 
 [![Sigma Rules](https://img.shields.io/badge/Sigma_Rules-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints)
 [![Lab Validated](https://img.shields.io/badge/Lab_Validated-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints)
 [![Open Source](https://img.shields.io/badge/Open_Source_Contributor-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/iimp0ster/detection-chokepoints/pull/191)
 
-My first open-source contribution — merged into Tyler Bohlmann's [Detection Chokepoints](https://github.com/iimp0ster/detection-chokepoints) framework. I wrote the full chokepoint documentation, a three-tier Sigma rule set (Research → Hunt → Analyst), a lab emulation script, and a validated evidence pack for the Land-and-Run chokepoint. The invariant: code staged as a file in a shared-writable Linux directory must be written before it can be consumed — an unavoidable step attackers cannot bypass. Seven delivery methods validated (curl, wget, scp, sftp, base64 decode, heredoc, echo) across Debian 12 and Rocky 9 with auditd and Sysmon for Linux. Mapped to T1105, T1059.004, T1053.003, and T1564.001. Co-authored with [@SancLogic](https://github.com/SancLogic)..
+My first open-source contribution — merged into Tyler Bohlmann's [Detection Chokepoints](https://github.com/iimp0ster/detection-chokepoints) framework. I wrote the full chokepoint documentation, a three-tier Sigma rule set (Research → Hunt → Analyst), a lab emulation script, and a validated evidence pack for the Land-and-Run chokepoint. The invariant: code staged as a file in a shared-writable Linux directory must be written before it can be consumed — an unavoidable step attackers cannot bypass. Seven delivery methods validated (curl, wget, scp, sftp, base64 decode, heredoc, echo) across Debian 12 and Rocky 9 with auditd and Sysmon for Linux. Mapped to T1105, T1059.004, T1053.003, and T1564.001. Co-authored with @SancLogic.
 
 **[View Published Chokepoint →](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ssh-land-and-run/)** &nbsp;|&nbsp; **[Emulation Script →](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ssh-land-and-run/#emulation)** &nbsp;|&nbsp; **[View PR →](https://github.com/iimp0ster/detection-chokepoints/pull/191)**
 
 ---
 
-### 🎯 [Hunt: TideGlass — Autonomous LLM-Agent Post-Exploitation](https://github.com/jennafrank/llm-agent-threat-hunt)
+### <img src="banner-tideglass.svg" alt="Hunt: TideGlass — Autonomous LLM-Agent Post-Exploitation" width="800"/>
 
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
-[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
-[![MITRE ATLAS](https://img.shields.io/badge/MITRE_ATLAS-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/llm-agent-threat-hunt)
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-58A6FF?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![KQL](https://img.shields.io/badge/KQL-58A6FF?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-58A6FF?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![MITRE ATLAS](https://img.shields.io/badge/MITRE_ATLAS-58A6FF?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
 
 Scored first place (96/100) out of 39 analysts on the Log(N) Pacific cyber range, won on report quality. Hunted an autonomous AI agent that exploited an unpatched marimo notebook (CVE-2026-39987), stole cloud credentials via IMDS, rotated through a six-IP egress pool against Secrets Manager, moved laterally to a bastion via a stolen SSH key, and exfiltrated 2.8M customer records — all in 52 minutes with zero human input after initial tasking. Every malicious step had a legitimate twin separated by one field. Nine KQL detections authored, mapped to ATT&CK and ATLAS (AML.T0098). Hypothesis proved with two blind spots documented.
 
-**[View Report →](https://github.com/jennafrank/llm-agent-threat-hunt)**
+**[View Report →](https://github.com/jennafrank)**
 
 ---
 
-### 🍯 [Sable Saint-Claire & The Honeypots](https://github.com/jennafrank/the-honeypots)
+### <img src="banner-honeypots.svg" alt="Sable Saint-Claire & The Honeypots" width="800"/>
 
-[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
-[![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
-[![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/the-honeypots)
+[![Python](https://img.shields.io/badge/Python-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![Docker](https://img.shields.io/badge/Docker-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![Azure](https://img.shields.io/badge/Azure-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
 
 A live SSH honeypot disguised as a Solana validator node, built from scratch and exposed to the open internet for 146 days (Apr 27 – Sep 21, 2026). 17 Easter eggs, canary tokens, and a real-time attack dashboard. Captured brute-force campaigns, credential-stuffing waves, and post-auth reconnaissance from real attackers — then wrote detection rules and a full research writeup from the telemetry. And one very glamorous gotcha moment.
 
-**[View Project →](https://github.com/jennafrank/the-honeypots)**
+**[View Project →](https://github.com/jennafrank)**
 
 ---
 
