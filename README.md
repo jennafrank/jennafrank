@@ -64,12 +64,12 @@ A live SSH honeypot disguised as a Solana validator node, built from scratch and
 
 ---
 
-### 🛡️ [Pacific Watch SOC](https://github.com/jennafrank/cyber-range-soc)
+### <img src="banner-pacific-watch.svg" alt="Pacific Watch — Security Operations Centre" width="800"/>
 
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
-[![Defender for Endpoint](https://img.shields.io/badge/Defender_for_Endpoint-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
-[![Logic Apps](https://img.shields.io/badge/Logic_Apps-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
-[![Jira](https://img.shields.io/badge/Jira-FF1493?style=flat-square&logo=jira&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/cyber-range-soc)
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![KQL](https://img.shields.io/badge/KQL-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![Jira](https://img.shields.io/badge/Jira-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
 
 The advisory-only SOC I built and run on the Log(N) Pacific cyber range, where beginning analysts learn real SOC work. Detections flow through a Sentinel to Logic Apps to Jira pipeline I built, into Tier 1 and Tier 2 queues, with four-shift handoffs and a seven-value disposition taxonomy. About 50 builders and 15 leaders across six teams. Includes case studies, including the 316-case queue flood that became our detection build standard.
 
