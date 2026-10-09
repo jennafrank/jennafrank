@@ -60,7 +60,7 @@ Scored first place (96/100) out of 39 analysts on the Log(N) Pacific cyber range
 
 Scored 100/100 on the Log(N) Pacific cyber range. Hunted a web application intrusion through a patient portal — nmap recon and gobuster directory brute-forcing led to patient data exfiltration 11 minutes before the attacker even had shell access, rewriting the kill chain timeline. Traced LFI via config_viewer.php to SSH lateral movement as svc_backup, SUID privilege escalation through /tmp/rootbash, and 73 C2 beaconing connections blocked by automated sweep remediation. Twelve findings with two-source corroboration, 11 KQL detections, a 23-row kill chain timeline, and four blind spots documented. The patient export happening mid-scan — not post-exploitation — was the analytical pivot that separated this report.
 
-**[View Report →](https://github.com/jennafrank/hunt-25-meridian)**
+**[View Report →](https://github.com/jennafrank/meridian-investigation)**
 
 ---
 
