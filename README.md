@@ -51,6 +51,19 @@ Scored first place (96/100) out of 39 analysts on the Log(N) Pacific cyber range
 
 ---
 
+### <img src="meridian-banner-static.svg" alt="Hunt: Meridian — Web App Intrusion" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-A855F7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hunt-25-meridian)
+[![KQL](https://img.shields.io/badge/KQL-A855F7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hunt-25-meridian)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-A855F7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hunt-25-meridian)
+[![PEAK/TaHiTI](https://img.shields.io/badge/PEAK%2FTaHiTI-A855F7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hunt-25-meridian)
+
+Scored 100/100 on the Log(N) Pacific cyber range. Hunted a web application intrusion through a patient portal — nmap recon and gobuster directory brute-forcing led to patient data exfiltration 11 minutes before the attacker even had shell access, rewriting the kill chain timeline. Traced LFI via config_viewer.php to SSH lateral movement as svc_backup, SUID privilege escalation through /tmp/rootbash, and 73 C2 beaconing connections blocked by automated sweep remediation. Twelve findings with two-source corroboration, 11 KQL detections, a 23-row kill chain timeline, and four blind spots documented. The patient export happening mid-scan — not post-exploitation — was the analytical pivot that separated this report.
+
+**[View Report →](https://github.com/jennafrank/hunt-25-meridian)**
+
+---
+
 ### <img src="banner-honeypots.svg" alt="Sable Saint-Claire & The Honeypots" width="800"/>
 
 [![Python](https://img.shields.io/badge/Python-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
