@@ -73,7 +73,7 @@ Scored 100/100 on the Log(N) Pacific cyber range. Hunted a web application intru
 
 A live SSH honeypot disguised as a Solana validator node, built from scratch and exposed to the open internet for 146 days (Apr 27 – Sep 21, 2026). 17 Easter eggs, canary tokens, and a real-time attack dashboard. Captured brute-force campaigns, credential-stuffing waves, and post-auth reconnaissance from real attackers — then wrote detection rules and a full research writeup from the telemetry. And one very glamorous gotcha moment.
 
-**[View Project →](https://github.com/jennafrank)**
+**[View Project →](https://github.com/jennafrank/the-honeypots)**
 
 ---
 
