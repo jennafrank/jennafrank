@@ -47,7 +47,7 @@ My first open-source contribution — merged into Tyler Bohlmann's [Detection Ch
 
 Scored first place (96/100) out of 39 analysts on the Log(N) Pacific cyber range, won on report quality. Hunted an autonomous AI agent that exploited an unpatched marimo notebook (CVE-2026-39987), stole cloud credentials via IMDS, rotated through a six-IP egress pool against Secrets Manager, moved laterally to a bastion via a stolen SSH key, and exfiltrated 2.8M customer records — all in 52 minutes with zero human input after initial tasking. Every malicious step had a legitimate twin separated by one field. Nine KQL detections authored, mapped to ATT&CK and ATLAS (AML.T0098). Hypothesis proved with two blind spots documented.
 
-**[View Report →](https://github.com/jennafrank)**
+**[View Report →](https://github.com/jennafrank/llm-agent-threat-hunt)**
 
 ---
 
