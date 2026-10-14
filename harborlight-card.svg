@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 150" width="1040" height="150" role="img" aria-label="Harborlight — Akira Ransomware Threat Hunt">
+  <defs>
+    <linearGradient id="hlTitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6EEBA0"/>
+      <stop offset="0.55" stop-color="#39E079"/>
+      <stop offset="1" stop-color="#1FA85A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1038" height="148" rx="10" fill="#0A0E14" stroke="#39E079" stroke-opacity="0.35"/>
+
+  <!-- left: encryption grid (clean files -> locked/encrypted) -->
+  <g>
+    <!-- row 0 -->
+    <rect x="78"  y="40" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="92"  y="40" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="106" y="40" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="120" y="40" width="11" height="11" fill="#39E079" fill-opacity="0.45" stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="134" y="40" width="11" height="11" fill="#39E079" fill-opacity="0.75" stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="148" y="40" width="11" height="11" fill="#FF4438" fill-opacity="0.85" stroke="#FF4438" stroke-opacity="0.6" stroke-width="0.8"/>
+    <!-- row 1 -->
+    <rect x="78"  y="54" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="92"  y="54" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="106" y="54" width="11" height="11" fill="#39E079" fill-opacity="0.45" stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="120" y="54" width="11" height="11" fill="#39E079" fill-opacity="0.6"  stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="134" y="54" width="11" height="11" fill="#FF4438" fill-opacity="0.85" stroke="#FF4438" stroke-opacity="0.6" stroke-width="0.8"/>
+    <rect x="148" y="54" width="11" height="11" fill="#FF4438" fill-opacity="0.85" stroke="#FF4438" stroke-opacity="0.6" stroke-width="0.8"/>
+    <!-- row 2 -->
+    <rect x="78"  y="68" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="92"  y="68" width="11" height="11" fill="#39E079" fill-opacity="0.45" stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="106" y="68" width="11" height="11" fill="#39E079" fill-opacity="0.65" stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="120" y="68" width="11" height="11" fill="#39E079" fill-opacity="0.8"  stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="134" y="68" width="11" height="11" fill="#FF4438" fill-opacity="0.85" stroke="#FF4438" stroke-opacity="0.6" stroke-width="0.8"/>
+    <rect x="148" y="68" width="11" height="11" fill="#FF4438" fill-opacity="0.9"  stroke="#FF4438" stroke-opacity="0.6" stroke-width="0.8"/>
+    <!-- row 3 -->
+    <rect x="78"  y="82" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="92"  y="82" width="11" height="11" fill="none"     stroke="#39E079" stroke-opacity="0.45" stroke-width="0.8"/>
+    <rect x="106" y="82" width="11" height="11" fill="#39E079" fill-opacity="0.45" stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="120" y="82" width="11" height="11" fill="#39E079" fill-opacity="0.7"  stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="134" y="82" width="11" height="11" fill="#39E079" fill-opacity="0.8"  stroke="#39E079" stroke-opacity="0.5" stroke-width="0.8"/>
+    <rect x="148" y="82" width="11" height="11" fill="#FF4438" fill-opacity="0.85" stroke="#FF4438" stroke-opacity="0.6" stroke-width="0.8"/>
+    <text x="119" y="110" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="8" letter-spacing="0.5" fill="#1FA85A">FILES &#8594; .akira</text>
+  </g>
+
+  <!-- center text -->
+  <text x="520" y="60" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace" font-size="27" font-weight="700" letter-spacing="7" fill="url(#hlTitle)">HARBORLIGHT</text>
+  <text x="520" y="86" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace" font-size="12" letter-spacing="4" fill="#9AA4B2">AKIRA RANSOMWARE &#183; THREAT HUNT</text>
+  <text x="520" y="110" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Consolas,monospace" font-size="10.5" letter-spacing="1.5" fill="#5A6472">3 HOSTS &#183; 13 KQL DETECTIONS &#183; 3 VALIDATED &#183; ~17-HR KILL CHAIN</text>
+
+  <!-- right: chain labels -->
+  <g font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" letter-spacing="1" fill="#39E079" opacity="0.6" text-anchor="end">
+    <text x="978" y="42">ISO &#8594;</text>
+    <text x="978" y="58">rundll32 &#8594;</text>
+    <text x="978" y="74">LSASS &#8594;</text>
+    <text x="978" y="90">NTDS &#8594;</text>
+    <text x="978" y="106">rclone &#8594; MEGA</text>
+  </g>
+
+  <!-- corner technique badge -->
+  <text x="1014" y="136" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#FF4438" opacity="0.9">T1486</text>
+</svg>
