@@ -38,6 +38,19 @@ My first open-source contribution — merged into Tyler Bohlmann's [Detection Ch
 
 ---
 
+### <img src="harborlight-card.svg" alt="Hunt: Harborlight — Akira Ransomware Intrusion" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-2EA043?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/akira-ransomware-threat-hunt)
+[![KQL](https://img.shields.io/badge/KQL-2EA043?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/akira-ransomware-threat-hunt)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-2EA043?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/akira-ransomware-threat-hunt)
+[![Detection Engineering](https://img.shields.io/badge/Detection_Engineering-2EA043?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/akira-ransomware-threat-hunt/tree/main/detections)
+
+Reconstructed a full Akira ransomware intrusion across three Windows hosts from raw logs alone — no alerts, no SOC notes, the attack already over when the hunt began. Traced the chain from a booby-trapped invoice-ISO lure through rundll32 proxy-loading, a fodhelper UAC bypass, an LSASS dump by the SYSTEM print spooler, ntdsutil theft of the domain database, SMB and WMI lateral movement, an rclone-to-MEGA exfiltration attempt disguised as the Windows Defender process, backup destruction, log clearing, and a rogue Domain Admin account. Thirteen KQL detections authored and mapped to MITRE ATT&CK — three validated by replay against the dataset, each shown firing on the real attacker event and staying quiet on its named benign twin. The pivot that reframed containment: the domain controller reached back down to an already-owned file server over WMI, so the intrusion was hub-and-spoke, not one-way. Reconstructs the same Akira playbook Huntress documents on live cases — from raw telemetry alone.
+
+**[View Report →](https://github.com/jennafrank/akira-ransomware-threat-hunt)** &nbsp;|&nbsp; **[Validated Detections →](https://github.com/jennafrank/akira-ransomware-threat-hunt/tree/main/detections)**
+
+---
+
 ### <img src="banner-tideglass.svg" alt="Hunt: TideGlass — Autonomous LLM-Agent Post-Exploitation" width="800"/>
 
 [![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-58A6FF?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
