@@ -103,18 +103,7 @@ The advisory-only SOC I built and run on the Log(N) Pacific cyber range, where b
 
 ---
 
-### 🎣 [INC-2026-87241: Cloud Identity Compromise & BEC](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-[![Microsoft 365](https://img.shields.io/badge/Microsoft_365-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-[![Entra ID](https://img.shields.io/badge/Entra_ID-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-
-A full investigation of a Microsoft 365 account takeover. The attacker used legacy authentication to bypass Conditional Access, signed in 583 times with MFA satisfied zero times, ran Graph API reconnaissance, exfiltrated files, and sent a fraudulent payment request to the CFO. Persistence came from inbox rules and a Power Automate flow. Includes the timeline and 5 KQL detections.
-
-**[View Project →](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)**
-
----
+![Pacific Watch Detection Engineering](/pacific-watch-detection-engineering-banner.png)
 
 ### 🔬 [Pacific Watch Detection Engineering](https://github.com/jennafrank/pacific-watch-detection-engineering)
 
@@ -126,6 +115,19 @@ A full investigation of a Microsoft 365 account takeover. The attacker used lega
 The Detection Build Card I wrote: the research-to-release standard every Pacific Watch detection follows, with working templates. The worked example grades my own first production rule against it: 66 requirements, 19 met, 24 partially met, 3 not met, 20 not recorded. Every local rule is traced to the thing that broke.
 
 **[View Project →](https://github.com/jennafrank/pacific-watch-detection-engineering)**
+
+---
+
+### 🎣 [INC-2026-87241: Cloud Identity Compromise & BEC](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![Microsoft 365](https://img.shields.io/badge/Microsoft_365-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![Entra ID](https://img.shields.io/badge/Entra_ID-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+
+A full investigation of a Microsoft 365 account takeover. The attacker used legacy authentication to bypass Conditional Access, signed in 583 times with MFA satisfied zero times, ran Graph API reconnaissance, exfiltrated files, and sent a fraudulent payment request to the CFO. Persistence came from inbox rules and a Power Automate flow. Includes the timeline and 5 KQL detections.
+
+**[View Project →](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)**
 
 ---
 
