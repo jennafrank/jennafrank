@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+<defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#140f08"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+      <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#e3a72c" stop-opacity="0.15"/>
+        <stop offset="1" stop-color="#e3a72c" stop-opacity="0"/></radialGradient>
+    </defs>
+<rect x="0" y="0" width="1200" height="280" rx="18" fill="url(#bg)"/>
+<ellipse cx="600" cy="120" rx="520" ry="150" fill="url(#glow)"/>
+<rect x="3" y="3" width="1194" height="274" rx="16" fill="none" stroke="#e3a72c" stroke-opacity="0.35" stroke-width="1.5"/>
+<rect x="3" y="3" width="1194" height="2" rx="1" fill="#e3a72c" fill-opacity="0.5"/>
+<text x="80" y="70" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12" letter-spacing="3" fill="#e3a72c" fill-opacity="0.9">AZURE HONEYNET</text>
+<rect x="80" y="86" width="220" height="40" rx="7" fill="#0c1320" stroke="#e3a72c" stroke-opacity="0.55" stroke-width="1.3"/><circle cx="96" cy="106" r="5" fill="#e3a72c"/><text x="110" y="103" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12.5" font-weight="700" fill="#e3a72c">CASCADE MEDICAL</text><text x="110" y="118" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.5" fill="#7f97a4">HEALTHCARE NODE</text>
+<rect x="80" y="170" width="220" height="40" rx="7" fill="#0c1320" stroke="#e3a72c" stroke-opacity="0.55" stroke-width="1.3"/><circle cx="96" cy="190" r="5" fill="#e3a72c"/><text x="110" y="187" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12.5" font-weight="700" fill="#e3a72c">MERIDIAN HR</text><text x="110" y="202" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.5" fill="#7f97a4">WIN SERVER 2025</text>
+<line x1="190" y1="126" x2="190" y2="170" stroke="#e3a72c" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="200" y="152" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="9.5" letter-spacing="1" fill="#b9924a">VNET PEER</text>
+<circle cx="52" cy="106" r="3.5" fill="#e5484d"/>
+<line x1="56" y1="106" x2="76" y2="106" stroke="#e5484d" stroke-opacity="0.5" stroke-width="1.5"/>
+<circle cx="52" cy="190" r="3.5" fill="#e5484d"/>
+<line x1="56" y1="190" x2="76" y2="190" stroke="#e5484d" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="80" y="236" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="11.5" letter-spacing="1" fill="#7f97a4">← LIVE ADVERSARY TRAFFIC</text>
+<text x="640" y="126" text-anchor="middle" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="58" font-weight="700" letter-spacing="14" fill="#e3a72c">HONEYNET</text>
+<text x="640" y="166" text-anchor="middle" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="14.5" letter-spacing="4.5" fill="#b9924a">TWO-NODE AZURE DECEPTION ENVIRONMENT</text>
+<text x="640" y="210" text-anchor="middle" xml:space="preserve" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="0.5" fill="#7f97a4">2 NODES  ·  VNET PEERING  ·  REAL ATTACKS  ·  SENTINEL</text>
+<text x="1150" y="98" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#b9924a">RECON</text>
+<text x="1150" y="123" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#b9924a">SCAN</text>
+<text x="1150" y="148" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#e3a72c">BRUTE FORCE</text>
+<text x="1150" y="173" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#e3a72c">CAPTURE</text>
+<text x="1150" y="198" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#2ea043">ANALYZE</text>
+<text x="1150" y="231" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12.5" letter-spacing="1" fill="#e3a72c">DECEPTION &amp; DFIR</text>
+</svg>
