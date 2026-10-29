@@ -127,7 +127,7 @@ The Detection Build Card I wrote: the research-to-release standard every Pacific
 
 Placed third (94/100, Exceptional) on the Log(N) Pacific cyber range. The first AI-agent hunt in the series — an indirect prompt-injection attack against Microsoft 365 Copilot, where the "attacker" is the company's own assistant following hidden instructions in a document it was asked to summarize. No malware, no new process, no credential theft: one opened email, and Copilot read thirteen files it was never asked for and staged their names into image links pointing at an attacker host, all in under four minutes inside a valid session. There's nothing on disk to hunt, so the signals are semantic and live in the Copilot audit stream — not EDR or network tables, where a conventional SOC is blind. Authored ten KQL detections mapped to ATT&CK and ATLAS (AML.T0051.001, AML.T0056), including a session-correlation rule that scores a session by how many attack behaviors co-occur. Every claim graded Recorded, Assessed, or Not established — the reads and link-staging are recorded; delivery is not, and the report says so. EchoLeak is a real M365 Copilot vulnerability (CVE-2025-32711): the emerging class of AI-agent attacks classic SOC telemetry can't see.
 
-**[View Report →](https://github.com/jennafrank/echoleak-copilot-threat-hunt)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/echoleak-copilot-threat-hunt/tree/main/detections)**
+**[View Report →](https://github.com/jennafrank/operation-echoleak-copilot-hunt)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/operation-echoleak-copilot-hunt/commit/1ccce69f60034dd6dbe89ce714e8122f969650ad)**
 
 ---
 
