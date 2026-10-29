@@ -118,6 +118,19 @@ The Detection Build Card I wrote: the research-to-release standard every Pacific
 
 ---
 
+### <img src="echoleak_card.svg" alt="Hunt: EchoLeak — M365 Copilot Prompt Injection" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
+[![KQL](https://img.shields.io/badge/KQL-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
+[![MITRE ATLAS](https://img.shields.io/badge/MITRE_ATLAS-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
+
+Scored 94/100 (Exceptional) and placed third on the Log(N) Pacific cyber range. Hunted an indirect prompt-injection attack against Microsoft 365 Copilot — the first AI-agent hunt in this series, and a different kind of hunt entirely: no malware, no new process, no credential theft, because the "attacker" is the company's own trusted assistant following hidden instructions buried in a document it was asked to summarize. One employee opened an emailed market-review file; with no further typing from her, Copilot searched for sensitive subjects and read thirteen files it was never asked for — board minutes, an M&A target assessment, executive salaries, client portfolios, a compliance audit, its own configuration — then staged twelve of those file names plus a system-prompt label into image links pointing at an attacker-controlled host, all in under four minutes inside her own valid session. The analytical pivot: there is nothing on disk to hunt, so the signals are semantic — files read versus the source the user declared, external links embedded in a reply, a system prompt disclosed into a response — and they live in the Copilot audit stream, not EDR or network tables, where a conventional SOC is blind to them. Ten KQL detections authored and mapped to MITRE ATT&CK and ATLAS (AML.T0051.001 indirect prompt injection, AML.T0056 system-prompt extraction), including a session-correlation rule that scores a session by how many of those behavior families co-occur, each tested against synthetic cases. Every claim is graded Recorded, Assessed, or Not established: the reads and the external-link staging are recorded; delivery to the attacker is not, and the report says so instead of overclaiming it. Measured the defender's real window at 13 to 27 seconds from the first collection signal to the first external-link response — too fast for a scheduled rule to catch. EchoLeak is a real Microsoft 365 Copilot vulnerability (CVE-2025-32711); this is the emerging class of AI-agent attacks that classic SOC telemetry cannot see.
+
+**[View Report →](https://github.com/jennafrank/echoleak-copilot-threat-hunt)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/echoleak-copilot-threat-hunt/tree/main/detections)**
+
+---
+
 ### 🎣 [INC-2026-87241: Cloud Identity Compromise & BEC](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
 
 [![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
