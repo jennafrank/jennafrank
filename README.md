@@ -169,19 +169,6 @@ One sentence of instruction. Seventeen minutes. Four hosts. Zero humans. I trace
 
 ---
 
-### 🏥 [Healthcare Enterprise Honeynet](https://github.com/jennafrank/healthcare-enterprise-honeynet)
-
-[![Python](https://img.shields.io/badge/Python-FF1493?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
-[![Docker](https://img.shields.io/badge/Docker-FF1493?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
-[![Azure](https://img.shields.io/badge/Azure-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
-
-Production-grade two-node honeypot (Meridian HR + Cascade Medical EMR). Real-time SOC dashboard, 3,181 synthetic healthcare documents, threat hunting framework, and attacker behavior analysis.
-
-**[View Honeynet →](https://github.com/jennafrank/healthcare-enterprise-honeynet)**
-
----
-
 ### ⚔️ [Imperial STIG Strikes Back](https://github.com/jennafrank/imperial-stig-strikes-back)
 
 [![Windows 11](https://img.shields.io/badge/Windows_11-FF1493?style=flat-square&logo=windows&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/imperial-stig-strikes-back)
