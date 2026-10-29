@@ -118,6 +118,19 @@ The Detection Build Card I wrote: the research-to-release standard every Pacific
 
 ---
 
+### <img src="honeynet_card.svg" alt="Healthcare Enterprise Honeynet" width="800"/>
+
+[![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-E3A72C?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
+[![Honeypots](https://img.shields.io/badge/Honeypots-E3A72C?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
+[![Deception Engineering](https://img.shields.io/badge/Deception_Engineering-E3A72C?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-E3A72C?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
+
+Two decoy organizations — a healthcare provider (Cascade Medical) and an HR department (Meridian HR) — built from scratch in Azure, peered over a VNet, and funneled into one investigation view. Both nodes sit on the open internet and take real attacker traffic: 544 sessions against Meridian HR (SSH, LDAP, MongoDB, Redis, Kerberos) and 4,292 against Cascade Medical, where Telnet and VNC brute-forcing dominated. The high-interest sessions surface the behavior that matters — Kerberos AS-REQ and TGS-REQ activity, repeated Telnet credential attempts — not just raw hit counts. A collaborative build run with a second analyst on the peer node, this is deception engineering end to end: stand up believable targets, capture live adversary behavior, and triage it in a single pane instead of two disconnected feeds.
+
+**[View Project →](https://github.com/jennafrank/healthcare-enterprise-honeynet)** &nbsp;|&nbsp; **[Dashboard →](https://github.com/jennafrank/healthcare-enterprise-honeynet/tree/main/docs/images)**
+
+---
+
 ### <img src="echoleak_card.svg" alt="Hunt: EchoLeak — M365 Copilot Prompt Injection" width="800"/>
 
 [![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
