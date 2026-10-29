@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+<defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+      <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#34d3e6" stop-opacity="0.16"/>
+        <stop offset="1" stop-color="#34d3e6" stop-opacity="0"/></radialGradient>
+    </defs>
+<rect x="0" y="0" width="1200" height="280" rx="18" fill="url(#bg)"/>
+<ellipse cx="600" cy="120" rx="520" ry="150" fill="url(#glow)"/>
+<rect x="3" y="3" width="1194" height="274" rx="16" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.5"/>
+<rect x="3" y="3" width="1194" height="2" rx="1" fill="#34d3e6" fill-opacity="0.5"/>
+<text x="80" y="82" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12" letter-spacing="3" fill="#34d3e6" fill-opacity="0.9">COPILOT · M365</text>
+<rect x="80" y="96" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="114" y="96" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="148" y="96" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="182" y="96" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="80" y="130" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="114" y="130" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="148" y="130" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="182" y="130" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="80" y="164" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="114" y="164" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="148" y="164" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="182" y="164" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="80" y="198" width="26" height="26" rx="4" fill="#34d3e6" fill-opacity="0.85"/>
+<rect x="114" y="198" width="26" height="26" rx="4" fill="#15212b" fill-opacity="1"/>
+<rect x="148" y="198" width="26" height="26" rx="4" fill="#15212b" fill-opacity="1"/>
+<rect x="182" y="198" width="26" height="26" rx="4" fill="#15212b" fill-opacity="1"/>
+<text x="80" y="246" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12" letter-spacing="2" fill="#7f97a4">13 OF 13 READ</text>
+<text x="620" y="128" text-anchor="middle" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="62" font-weight="700" letter-spacing="16" fill="#34d3e6">ECHOLEAK</text>
+<text x="620" y="168" text-anchor="middle" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="15.5" letter-spacing="5" fill="#5ea9bd">M365 COPILOT PROMPT INJECTION  ·  THREAT HUNT</text>
+<text x="620" y="212" text-anchor="middle" xml:space="preserve" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13.5" letter-spacing="0.5" fill="#7f97a4">13 FILES READ  ·  ATLAS + ATT&amp;CK  ·  10 KQL RULES  ·  94 / 100</text>
+<text x="1150" y="98" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#5ea9bd">PROMPT</text>
+<text x="1150" y="123" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#5ea9bd">SEARCH ×8</text>
+<text x="1150" y="148" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#34d3e6">READ ×13</text>
+<text x="1150" y="173" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#5ea9bd">STAGE LINKS</text>
+<text x="1150" y="198" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="13" letter-spacing="1" fill="#e5484d">DELIVERY ?</text>
+<text x="1150" y="231" text-anchor="end" font-family="ui-monospace, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12.5" letter-spacing="1" fill="#34d3e6">AML.T0051.001</text>
+</svg>
