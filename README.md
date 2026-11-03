@@ -143,6 +143,18 @@ Placed third (94/100, Exceptional) on the Log(N) Pacific cyber range. The first 
 **[View Report →](https://github.com/jennafrank/operation-echoleak-copilot-hunt)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/operation-echoleak-copilot-hunt/commit/1ccce69f60034dd6dbe89ce714e8122f969650ad)**
 
 ---
+### <img src="quartzfang-card.svg" alt="Incident Response: QUARTZFANG — SSRF to Root" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
+[![KQL](https://img.shields.io/badge/KQL-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
+[![Incident Response](https://img.shields.io/badge/Incident_Response-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response/tree/main/detections)
+
+A full incident response report (NIST SP 800-61r3 / SANS PICERL), reconstructed in Microsoft Sentinel. One request to a customer portal's preview feature reached Redis on the server itself, planted a root cron job, and opened a reverse shell. From there the attacker used two stolen service passwords to reach the database, the container registry and an internal admin API. Then they staged an encrypted archive, attempted an upload to an outside server, and created a sudo-group account on the way out. An AI agent log recorded alongside the attack claimed wins the server logs contradict: it said it extracted Kubernetes secrets, and the admin API returned 403. I audited every agent claim against telemetry. Ten findings, eleven named gaps, five backtested KQL detections, and a strict line between requested and returned, attempted and delivered, observed activity (~97 minutes) and unknown dwell time.
+
+**[View Report →](https://github.com/jennafrank/quartzfang-incident-response)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/quartzfang-incident-response/tree/main/detections)**
+
+---
 
 ### 🎣 [INC-2026-87241: Cloud Identity Compromise & BEC](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
 
