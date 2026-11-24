@@ -51,6 +51,19 @@ Reconstructed a full Akira ransomware intrusion across three Windows hosts from 
 
 ---
 
+### <img src="hartwell-card.svg" alt="Hunt 29: The Hartwell Breach" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF2E88?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hartwell-webshell-threat-hunt)
+[![KQL](https://img.shields.io/badge/KQL-FF2E88?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hartwell-webshell-threat-hunt)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF2E88?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hartwell-webshell-threat-hunt)
+[![Detection Engineering](https://img.shields.io/badge/Detection_Engineering-FF2E88?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/hartwell-webshell-threat-hunt/tree/main/detections)
+
+A hypothesis-driven hunt in Microsoft Sentinel on a WordPress web server. An attacker on an internal host planted a PHP web shell, came back twice in the same day, and left a cookie-triggered backdoor inside a WordPress core file (`version.php`) that the first cleanup missed. A 77-minute silence that I first blamed on a stopped log forwarder was a host restart: audit serial numbers and process IDs reset when logging returned. Sysmon missed the whole first visit; auditd had all of it. Data theft is very likely, not proven: the config file and user table were archived and encoded, and response sizes fit that output being sent back, but response bodies are not logged. Four KQL detections built from the findings and run over the hunt window, each with its hits, misses and false positives recorded.
+
+**[View Report →](https://github.com/jennafrank/hartwell-webshell-threat-hunt)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/hartwell-webshell-threat-hunt/tree/main/detections)**
+
+---
+
 ### <img src="banner-tideglass.svg" alt="Hunt: TideGlass — Autonomous LLM-Agent Post-Exploitation" width="800"/>
 
 [![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-58A6FF?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
