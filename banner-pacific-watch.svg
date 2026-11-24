@@ -82,7 +82,7 @@
   <text x="420" y="58" font-family="'Courier New', monospace" font-size="11" fill="#4A8DB7" text-anchor="middle" opacity="0.9">Security Operations Centre</text>
 
   <!-- Stats -->
-  <text x="420" y="78" font-family="'Courier New', monospace" font-size="9" fill="#e6edf3" text-anchor="middle" opacity="0.4">Fusion SOC  ·  6 teams  ·  ~25 analysts  ·  Sentinel + Jira  ·  Log(N) Pacific Cyber Range</text>
+  <text x="420" y="78" font-family="'Courier New', monospace" font-size="9" fill="#e6edf3" text-anchor="middle" opacity="0.4">Fusion SOC  ·  6 teams  ·  ~50 analysts  ·  Sentinel + Jira  ·  Log(N) Pacific Cyber Range</text>
 
   <!-- Right side - SOC status indicators -->
   <g opacity="0.3" transform="translate(650, 25)">

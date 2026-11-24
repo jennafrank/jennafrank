@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-label="INC-2026-87241 — Cloud Identity Compromise and Business Email Compromise">
+  <defs>
+    <linearGradient id="inc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160c10"/><stop offset="1" stop-color="#0a0d12"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="798" height="118" rx="10" fill="url(#inc-bg)" stroke="#FF6B6B" stroke-opacity="0.4"/>
+
+  <!-- left: envelope on a hook -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M86 14 L86 30 Q86 40 76 40 Q68 40 68 33" stroke="#FF6B6B" stroke-opacity="0.7" stroke-width="1.6"/>
+    <rect x="50" y="46" width="72" height="46" rx="4" fill="#FF6B6B" fill-opacity="0.08" stroke="#FF6B6B" stroke-width="1.4"/>
+    <path d="M50 49 L86 74 L122 49" stroke="#FF6B6B" stroke-width="1.4"/>
+    <path d="M50 90 L76 68 M122 90 L96 68" stroke="#FF6B6B" stroke-opacity="0.4" stroke-width="1"/>
+  </g>
+  <text x="86" y="110" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="7" letter-spacing="1" fill="#a35a5a">PAYMENT REQUEST &#8594; CFO</text>
+
+  <!-- center -->
+  <text x="400" y="47" text-anchor="middle" font-family="Menlo,Consolas,'Courier New',monospace" font-size="24" font-weight="700" letter-spacing="4" fill="#FF6B6B">INC-2026-87241</text>
+  <text x="400" y="70" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="10" letter-spacing="2.5" fill="#c9d1d9">CLOUD IDENTITY COMPROMISE &#183; BEC</text>
+  <text x="400" y="92" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="9" letter-spacing="1" fill="#7d6f72">583 sign-ins &#183; 0 MFA &#183; Graph recon &#183; 5 KQL detections</text>
+
+  <!-- right: kill chain -->
+  <g font-family="Menlo,Consolas,monospace" font-size="8" letter-spacing="0.8" text-anchor="end" opacity="0.75">
+    <text x="766" y="28" fill="#FFA3A3">LEGACY AUTH &#8594;</text>
+    <text x="766" y="41" fill="#FFA3A3">CA BYPASS &#8594;</text>
+    <text x="766" y="54" fill="#FF6B6B">GRAPH RECON &#8594;</text>
+    <text x="766" y="67" fill="#FF6B6B">INBOX RULES &#8594;</text>
+    <text x="766" y="80" fill="#E3B341">POWER AUTOMATE</text>
+  </g>
+  <text x="780" y="108" text-anchor="end" font-family="Menlo,Consolas,monospace" font-size="9" letter-spacing="1" fill="#FF6B6B" opacity="0.55">M365 &#183; ENTRA ID</text>
+</svg>

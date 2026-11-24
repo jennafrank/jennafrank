@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-label="JADEPUFFER — Agentic Ransomware Threat Hunt">
+  <defs>
+    <linearGradient id="jp-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07130f"/><stop offset="1" stop-color="#0a0d12"/>
+    </linearGradient>
+    <linearGradient id="jp-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7FE8C2"/><stop offset="0.6" stop-color="#2FBF8F"/><stop offset="1" stop-color="#1E8F6A"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="798" height="118" rx="10" fill="url(#jp-bg)" stroke="#2FBF8F" stroke-opacity="0.4"/>
+
+  <!-- left: one agent fanning out to four hosts -->
+  <g font-family="Menlo,Consolas,monospace">
+    <circle cx="52" cy="58" r="11" fill="#2FBF8F" fill-opacity="0.15" stroke="#2FBF8F" stroke-width="1.2"/>
+    <circle cx="52" cy="58" r="4" fill="#7FE8C2"/>
+    <g stroke="#2FBF8F" stroke-opacity="0.45" stroke-width="0.9">
+      <line x1="63" y1="55" x2="108" y2="30"/><line x1="63" y1="57" x2="108" y2="50"/>
+      <line x1="63" y1="59" x2="108" y2="70"/><line x1="63" y1="61" x2="108" y2="90"/>
+    </g>
+    <g stroke-width="0.9">
+      <rect x="108" y="23" width="22" height="14" rx="2" fill="#2FBF8F" fill-opacity="0.25" stroke="#2FBF8F"/>
+      <rect x="108" y="43" width="22" height="14" rx="2" fill="#2FBF8F" fill-opacity="0.25" stroke="#2FBF8F"/>
+      <rect x="108" y="63" width="22" height="14" rx="2" fill="#2FBF8F" fill-opacity="0.25" stroke="#2FBF8F"/>
+      <rect x="108" y="83" width="22" height="14" rx="2" fill="#FF4438" fill-opacity="0.7" stroke="#FF4438"/>
+    </g>
+    <text x="40" y="112" font-size="7" letter-spacing="1" fill="#1E8F6A">1 AGENT &#8594; 4 HOSTS</text>
+  </g>
+
+  <!-- center -->
+  <text x="400" y="47" text-anchor="middle" font-family="Menlo,Consolas,'Courier New',monospace" font-size="24" font-weight="700" letter-spacing="6" fill="url(#jp-title)">JADEPUFFER</text>
+  <text x="400" y="70" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="10" letter-spacing="2.5" fill="#c9d1d9">AGENTIC RANSOMWARE &#183; THREAT HUNT</text>
+  <text x="400" y="92" text-anchor="middle" font-family="Menlo,Consolas,monospace" font-size="9" letter-spacing="1" fill="#6f7d78">17 minutes &#183; 4 hosts &#183; 0 humans &#183; 7 KQL queries &#183; 4 behavioral signals</text>
+
+  <!-- right: kill chain -->
+  <g font-family="Menlo,Consolas,monospace" font-size="8" letter-spacing="0.8" text-anchor="end" opacity="0.75">
+    <text x="766" y="28" fill="#7FE8C2">LANGFLOW RCE &#8594;</text>
+    <text x="766" y="41" fill="#7FE8C2">CREDS &#215;8 &#8594;</text>
+    <text x="766" y="54" fill="#2FBF8F">FORGED JWT &#8594;</text>
+    <text x="766" y="67" fill="#E3B341">SELF-REPAIR 31s &#8594;</text>
+    <text x="766" y="80" fill="#FF4438">AES &#183; DROP TABLE</text>
+  </g>
+  <text x="780" y="108" text-anchor="end" font-family="Menlo,Consolas,monospace" font-size="9" letter-spacing="1" fill="#2FBF8F" opacity="0.55">CVE-2025-3248</text>
+</svg>

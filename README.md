@@ -21,9 +21,15 @@ Currently: **Security Operations Manager** - Built Pacific Watch, a SOC on the L
 
 ---
 
-## Projects
+<p align="center">
+  <strong>🥇 1st of 39 analysts (TideGlass)</strong> &nbsp;·&nbsp; <strong>💯 100/100 (Meridian)</strong> &nbsp;·&nbsp; <strong>🔀 Merged open-source detection work</strong> &nbsp;·&nbsp; <strong>🛰️ Built a ~50-analyst SOC</strong>
+</p>
 
 ---
+
+## ✨ Start Here
+
+<sub>Three projects that show what I do: detection engineering, threat hunting, and SOC operations.</sub>
 
 ### <img src="banner-chokepoints.svg" alt="Detection Chokepoints — Land-and-Run" width="800"/>
 
@@ -50,6 +56,23 @@ Reconstructed a full Akira ransomware intrusion across three Windows hosts from 
 **[View Report →](https://github.com/jennafrank/akira-ransomware-threat-hunt)** &nbsp;|&nbsp; **[Validated Detections →](https://github.com/jennafrank/akira-ransomware-threat-hunt/tree/main/detections)**
 
 ---
+
+### <img src="banner-pacific-watch.svg" alt="Pacific Watch — Security Operations Centre" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![KQL](https://img.shields.io/badge/KQL-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![Jira](https://img.shields.io/badge/Jira-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+
+The advisory-only SOC I built and run on the Log(N) Pacific cyber range, where beginning analysts learn real SOC work. Detections flow through a Sentinel to Logic Apps to Jira pipeline I built, into Tier 1 and Tier 2 queues, with four-shift handoffs and a seven-value disposition taxonomy. About 50 builders and 15 leaders across six teams. Includes case studies, including the 316-case queue flood that became our detection build standard.
+
+**[View Project →](https://github.com/jennafrank/cyber-range-soc)**
+
+---
+
+## 🎯 Threat Hunting
+
+<sub>Hypothesis-driven hunts in Microsoft Sentinel, reconstructed from raw telemetry, each with KQL detections.</sub>
 
 ### <img src="hartwell-card.svg" alt="Hunt 29: The Hartwell Breach" width="800"/>
 
@@ -90,31 +113,64 @@ Scored 100/100 on the Log(N) Pacific cyber range. Hunted a web application intru
 
 ---
 
-### <img src="banner-honeypots.svg" alt="Sable Saint-Claire & The Honeypots" width="800"/>
+### <img src="echoleak_card.svg" alt="Hunt: EchoLeak — M365 Copilot Prompt Injection" width="800"/>
 
-[![Python](https://img.shields.io/badge/Python-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
-[![Docker](https://img.shields.io/badge/Docker-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
-[![Azure](https://img.shields.io/badge/Azure-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
+[![KQL](https://img.shields.io/badge/KQL-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
+[![MITRE ATLAS](https://img.shields.io/badge/MITRE_ATLAS-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
 
-A live SSH honeypot disguised as a Solana validator node, built from scratch and exposed to the open internet for 146 days (Apr 27 – Sep 21, 2026). 17 Easter eggs, canary tokens, and a real-time attack dashboard. Captured brute-force campaigns, credential-stuffing waves, and post-auth reconnaissance from real attackers — then wrote detection rules and a full research writeup from the telemetry. And one very glamorous gotcha moment.
+Placed third (94/100, Exceptional) on the Log(N) Pacific cyber range. The first AI-agent hunt in the series — an indirect prompt-injection attack against Microsoft 365 Copilot, where the "attacker" is the company's own assistant following hidden instructions in a document it was asked to summarize. No malware, no new process, no credential theft: one opened email, and Copilot read thirteen files it was never asked for and staged their names into image links pointing at an attacker host, all in under four minutes inside a valid session. There's nothing on disk to hunt, so the signals are semantic and live in the Copilot audit stream — not EDR or network tables, where a conventional SOC is blind. Authored ten KQL detections mapped to ATT&CK and ATLAS (AML.T0051.001, AML.T0056), including a session-correlation rule that scores a session by how many attack behaviors co-occur. Every claim graded Recorded, Assessed, or Not established — the reads and link-staging are recorded; delivery is not, and the report says so. EchoLeak is a real M365 Copilot vulnerability (CVE-2025-32711): the emerging class of AI-agent attacks classic SOC telemetry can't see.
 
-**[View Project →](https://github.com/jennafrank/the-honeypots)**
+**[View Report →](https://github.com/jennafrank/operation-echoleak-copilot-hunt)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/operation-echoleak-copilot-hunt/commit/1ccce69f60034dd6dbe89ce714e8122f969650ad)**
+
+---
+
+### <img src="jadepuffer-card.svg" alt="Hunt: JADEPUFFER — Agentic Ransomware" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-2FBF8F?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
+[![KQL](https://img.shields.io/badge/KQL-2FBF8F?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-2FBF8F?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
+
+One sentence of instruction. Seventeen minutes. Four hosts. Zero humans. I traced an autonomous LLM agent from an unauthenticated Langflow RCE (CVE-2025-3248) through credential theft across 8 credential families, lateral movement via default creds and forged JWTs, a 31-second self-repair when its exploit broke, to 1,342 AES-encrypted records and a DROP TABLE — key never persisted, data unrecoverable. Seven KQL detection queries and four behavioral signals that separated the agent from normal noise: parent process context, port anomaly, scope targeting, and temporal fingerprint. Scored 73/100 on the range — then rewrote the report, learned what I missed, and came back for Hunt 24 and scored 96.
+
+**[View Hunt →](https://github.com/jennafrank/threat-hunt-agentic-ransomware)**
 
 ---
 
-### <img src="banner-pacific-watch.svg" alt="Pacific Watch — Security Operations Centre" width="800"/>
+## 🚨 Incident Response
 
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
-[![KQL](https://img.shields.io/badge/KQL-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
-[![Jira](https://img.shields.io/badge/Jira-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-4A8DB7?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+<sub>Full investigations from first signal to containment, with timelines, findings and named gaps.</sub>
 
-The advisory-only SOC I built and run on the Log(N) Pacific cyber range, where beginning analysts learn real SOC work. Detections flow through a Sentinel to Logic Apps to Jira pipeline I built, into Tier 1 and Tier 2 queues, with four-shift handoffs and a seven-value disposition taxonomy. About 50 builders and 15 leaders across six teams. Includes case studies, including the 316-case queue flood that became our detection build standard.
+### <img src="quartzfang-card.svg" alt="Incident Response: QUARTZFANG — SSRF to Root" width="800"/>
 
-**[View Project →](https://github.com/jennafrank/cyber-range-soc)**
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
+[![KQL](https://img.shields.io/badge/KQL-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
+[![Incident Response](https://img.shields.io/badge/Incident_Response-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response/tree/main/detections)
+
+A full incident response report (NIST SP 800-61r3 / SANS PICERL), reconstructed in Microsoft Sentinel. One request to a customer portal's preview feature reached Redis on the server itself, planted a root cron job, and opened a reverse shell. From there the attacker used two stolen service passwords to reach the database, the container registry and an internal admin API. Then they staged an encrypted archive, attempted an upload to an outside server, and created a sudo-group account on the way out. An AI agent log recorded alongside the attack claimed wins the server logs contradict: it said it extracted Kubernetes secrets, and the admin API returned 403. I audited every agent claim against telemetry. Ten findings, eleven named gaps, five backtested KQL detections, and a strict line between requested and returned, attempted and delivered, observed activity (~97 minutes) and unknown dwell time.
+
+**[View Report →](https://github.com/jennafrank/quartzfang-incident-response)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/quartzfang-incident-response/tree/main/detections)**
 
 ---
+
+### <img src="inc-2026-87241-card.svg" alt="INC-2026-87241: Cloud Identity Compromise & BEC" width="800"/>
+
+[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF6B6B?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![Microsoft 365](https://img.shields.io/badge/Microsoft_365-FF6B6B?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![Entra ID](https://img.shields.io/badge/Entra_ID-FF6B6B?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+[![KQL](https://img.shields.io/badge/KQL-FF6B6B?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
+
+A full investigation of a Microsoft 365 account takeover. The attacker used legacy authentication to bypass Conditional Access, signed in 583 times with MFA satisfied zero times, ran Graph API reconnaissance, exfiltrated files, and sent a fraudulent payment request to the CFO. Persistence came from inbox rules and a Power Automate flow. Includes the timeline and 5 KQL detections.
+
+**[View Project →](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)**
+
+---
+
+## 🔬 Detection Engineering
+
+<sub>How detections get researched, built, tested and released.</sub>
 
 ![Pacific Watch Detection Engineering](/pacific-watch-detection-engineering-banner.png)
 
@@ -131,6 +187,23 @@ The Detection Build Card I wrote: the research-to-release standard every Pacific
 
 ---
 
+## 🍯 Deception & Honeypots
+
+<sub>Live decoys on the open internet, capturing real attacker behavior.</sub>
+
+### <img src="banner-honeypots.svg" alt="Sable Saint-Claire & The Honeypots" width="800"/>
+
+[![Python](https://img.shields.io/badge/Python-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![Docker](https://img.shields.io/badge/Docker-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![Azure](https://img.shields.io/badge/Azure-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-F0883E?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank)
+
+A live SSH honeypot disguised as a Solana validator node, built from scratch and exposed to the open internet for 146 days (Apr 27 – Sep 21, 2026). 17 Easter eggs, canary tokens, and a real-time attack dashboard. Captured brute-force campaigns, credential-stuffing waves, and post-auth reconnaissance from real attackers — then wrote detection rules and a full research writeup from the telemetry. And one very glamorous gotcha moment.
+
+**[View Project →](https://github.com/jennafrank/the-honeypots)**
+
+---
+
 ### <img src="honeynet_card.svg" alt="Healthcare Enterprise Honeynet" width="800"/>
 
 [![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-E3A72C?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/healthcare-enterprise-honeynet)
@@ -144,55 +217,10 @@ Two decoy organizations — a healthcare provider (Cascade Medical) and an HR de
 
 ---
 
-### <img src="echoleak_card.svg" alt="Hunt: EchoLeak — M365 Copilot Prompt Injection" width="800"/>
+## 🧱 Foundations
 
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
-[![KQL](https://img.shields.io/badge/KQL-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
-[![MITRE ATLAS](https://img.shields.io/badge/MITRE_ATLAS-22D3EE?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/echoleak-copilot-threat-hunt)
-
-Placed third (94/100, Exceptional) on the Log(N) Pacific cyber range. The first AI-agent hunt in the series — an indirect prompt-injection attack against Microsoft 365 Copilot, where the "attacker" is the company's own assistant following hidden instructions in a document it was asked to summarize. No malware, no new process, no credential theft: one opened email, and Copilot read thirteen files it was never asked for and staged their names into image links pointing at an attacker host, all in under four minutes inside a valid session. There's nothing on disk to hunt, so the signals are semantic and live in the Copilot audit stream — not EDR or network tables, where a conventional SOC is blind. Authored ten KQL detections mapped to ATT&CK and ATLAS (AML.T0051.001, AML.T0056), including a session-correlation rule that scores a session by how many attack behaviors co-occur. Every claim graded Recorded, Assessed, or Not established — the reads and link-staging are recorded; delivery is not, and the report says so. EchoLeak is a real M365 Copilot vulnerability (CVE-2025-32711): the emerging class of AI-agent attacks classic SOC telemetry can't see.
-
-**[View Report →](https://github.com/jennafrank/operation-echoleak-copilot-hunt)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/operation-echoleak-copilot-hunt/commit/1ccce69f60034dd6dbe89ce714e8122f969650ad)**
-
----
-### <img src="quartzfang-card.svg" alt="Incident Response: QUARTZFANG — SSRF to Root" width="800"/>
-
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
-[![KQL](https://img.shields.io/badge/KQL-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response)
-[![Incident Response](https://img.shields.io/badge/Incident_Response-B8F53A?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/quartzfang-incident-response/tree/main/detections)
-
-A full incident response report (NIST SP 800-61r3 / SANS PICERL), reconstructed in Microsoft Sentinel. One request to a customer portal's preview feature reached Redis on the server itself, planted a root cron job, and opened a reverse shell. From there the attacker used two stolen service passwords to reach the database, the container registry and an internal admin API. Then they staged an encrypted archive, attempted an upload to an outside server, and created a sudo-group account on the way out. An AI agent log recorded alongside the attack claimed wins the server logs contradict: it said it extracted Kubernetes secrets, and the admin API returned 403. I audited every agent claim against telemetry. Ten findings, eleven named gaps, five backtested KQL detections, and a strict line between requested and returned, attempted and delivered, observed activity (~97 minutes) and unknown dwell time.
-
-**[View Report →](https://github.com/jennafrank/quartzfang-incident-response)** &nbsp;|&nbsp; **[Detections →](https://github.com/jennafrank/quartzfang-incident-response/tree/main/detections)**
-
----
-
-### 🎣 [INC-2026-87241: Cloud Identity Compromise & BEC](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-[![Microsoft 365](https://img.shields.io/badge/Microsoft_365-FF1493?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-[![Entra ID](https://img.shields.io/badge/Entra_ID-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)
-
-A full investigation of a Microsoft 365 account takeover. The attacker used legacy authentication to bypass Conditional Access, signed in 583 times with MFA satisfied zero times, ran Graph API reconnaissance, exfiltrated files, and sent a fraudulent payment request to the CFO. Persistence came from inbox rules and a Power Automate flow. Includes the timeline and 5 KQL detections.
-
-**[View Project →](https://github.com/jennafrank/INC-2026-87241-EPIC-Investigation)**
-
----
-
-### 🤖 [JADEPUFFER: Agentic Ransomware Hunt](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
-
-[![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-FF1493?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
-[![KQL](https://img.shields.io/badge/KQL-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF1493?style=flat-square&labelColor=0d1117)](https://github.com/jennafrank/threat-hunt-agentic-ransomware)
-
-One sentence of instruction. Seventeen minutes. Four hosts. Zero humans. I traced an autonomous LLM agent from an unauthenticated Langflow RCE (CVE-2025-3248) through credential theft across 8 credential families, lateral movement via default creds and forged JWTs, a 31-second self-repair when its exploit broke, to 1,342 AES-encrypted records and a DROP TABLE — key never persisted, data unrecoverable. Seven KQL detection queries and four behavioral signals that separated the agent from normal noise: parent process context, port anomaly, scope targeting, and temporal fingerprint. Scored 73/100 on the range — then rewrote the report, learned what I missed, and came back for Hunt 24 and scored 96.
-
-**[View Hunt →](https://github.com/jennafrank/threat-hunt-agentic-ransomware)**
-
----
+<details>
+<summary><strong>Earlier lab work: STIG hardening, vulnerability management, a TOR hunt, and an Active Directory lab (click to expand)</strong></summary>
 
 ### ⚔️ [Imperial STIG Strikes Back](https://github.com/jennafrank/imperial-stig-strikes-back)
 
@@ -241,6 +269,8 @@ Parallel threat hunting investigation documenting TOR browser detection via KQL 
 Built a full enterprise Active Directory environment from scratch. Dual-NIC domain controller, DHCP, NAT routing, DNS, and a PowerShell script that spun up 1,000 users automatically. This is what your corporate IT environment looks like under the hood.
 
 **[View Project →](https://github.com/jennafrank/active_directory_home_lab)**
+
+</details>
 
 ---
 
